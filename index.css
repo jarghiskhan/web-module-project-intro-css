@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My stuff */
+
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.25em;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    height: 60px;
+    width: 120px;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: auto 5%;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+footer{
+    background-color: #F9E7DC;
+    display:block;
+}
+.footer_img{
+    background-image: url("assets/footer_img.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    /* max-width: 100%; */
+    height: 200px;
+}
+
+section{
+    margin: 3%;
+}
+
+
+.advice{
+    display: block;
+    margin: 2% auto 8% auto;
+    text-align: center;
+    width: 65%;
+}
+.advice p {
+    width: 45%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 5%;
+}
+.advice img{
+    display: block;
+    margin: 2% auto 5% auto;
+    max-width: 25%;
+    height: auto;
+}
+
+
+.button-plan{
+    background-color: #FF764E;
+
+}
+.button-learn{
+    background-color: #5ED3EB;
+
+}
+.button-involved{
+    background-color: #FFCD69;
+
+}
+
+.main{
+    padding: 2%;
+    color: white;
+    background-color: #DDB9A3;
+    text-align: center;
+}
+.nav-buttons{
+    display:flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: space-evenly;
+}
+.top-of-page{
+	padding: 3% 8% 3% 5%;
+	display: flex;
+}
+
+.top-of-page img{
+    margin: 20px 30px 0 0;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+.top-of-page-text{
+    padding-top: 3%;
+    flex: 1 1 auto;
+}
+
+.top-of-page-text h1{
+    font-family: 'Chelsea Market', cursive;
+    
+    margin-top: 5%;
+    font-size: 300%;
+    text-align: center;
+}
+
+.top-of-page-text p{
+    margin: 5% 16%;
+    text-align: center;
+}
